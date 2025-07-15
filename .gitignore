@@ -1,0 +1,22 @@
+# Ignore all images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Ignore environment files
+.env
+*.json
+
+# Ignore IDE configs
+*.idea/
+.vscode/
+
+# Ignore compiled/intermediate files
+__pycache__/
+*.pkl
+*.log
+
+# Optional: ignore all in RoadmapAi/images
+RoadmapAi/**/images/
