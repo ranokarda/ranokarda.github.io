@@ -1,22 +1,26 @@
-# Ignore all images
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.webp
-
-# Ignore environment files
-.env
+# Secrets
+*.env
 *.json
+*.key
+*.pem
 
-# Ignore IDE configs
-*.idea/
-.vscode/
-
-# Ignore compiled/intermediate files
+# Python
 __pycache__/
+*.py[cod]
 *.pkl
 *.log
 
-# Optional: ignore all in RoadmapAi/images
-RoadmapAi/**/images/
+# IDEs
+.vscode/
+.idea/
+
+# Images and binaries
+*.jpg
+*.png
+*.gif
+*.zip
+
+# Models and weights
+*.pt
+*.h5
+*.ckpt
