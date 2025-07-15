@@ -1,1 +1,0 @@
-# ranokarda.github.io
